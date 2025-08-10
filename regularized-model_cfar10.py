@@ -185,7 +185,7 @@ def main(num_epochs = 2):
 def plotting_train_val_loss_accuracy_curves(train_losses, train_accuracies, val_losses, val_accuracies ,num_epochs):
 	 
 	epochs = np.arange(num_epochs)+1
-	imgs_path = Path('/home/jobe/Desktop/my_venv/working/ML_proj/Regularization-methods-for-deep-Nets-main/IMGs')
+	imgs_path = Path('/home/jobe/Desktop/my_venv/working/ML_proj/IMGs')
 	 
 	plt.figure(figsize=(10,5))
 	plt.plot(epochs, train_accuracies, 'bo', label='Training accuracy')
@@ -214,7 +214,7 @@ def plotting_train_val_loss_accuracy_curves(train_losses, train_accuracies, val_
 
 def draw_confusion_matrix(network):
 
-	confmx_path = Path('/home/jobe/Desktop/my_venv/working/ML_proj/Regularization-methods-for-deep-Nets-main/IMGs')
+	confmx_path = Path('/home/jobe/Desktop/my_venv/working/ML_proj/IMGs')
 	label_name = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck'] 
 	cmap=plt.cm.Blues
 
@@ -308,7 +308,7 @@ if __name__ == "__main__":
 
 # save model
 
-	save_model_path = Path('/home/jobe/Desktop/my_venv/working/ML_proj/Regularization-methods-for-deep-Nets-main/save_models/Regularized_model_cifar10.pth')
+	save_model_path = Path('/home/jobe/Desktop/my_venv/working/ML_proj/Regularized_model_cifar10.pth')
 	torch.save(model.state_dict(), save_model_path)
 
 # plottig accuraccy and loss curves to evalute model performance(overfitting, under fitting, ... )
