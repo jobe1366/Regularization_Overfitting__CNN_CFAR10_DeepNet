@@ -1,4 +1,4 @@
-# :dart: _Design, train, test a CNN network and apply *Regularization* methods to tackling Overfitting problem on [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)_
+# :dart: Design, train, test a CNN network and apply *Regularization* methods to tackling Overfitting problem on [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 
 
@@ -34,9 +34,7 @@
 
 ## *step 2:* _train and test model along with Regularization_
 
----
-
- > #### Dropout layers:
+> #### Dropout layers:
 > - It is used to prevent over-fitting. In such a way that we randomly ignore a percentage of neurons during network training. The large number of parameters of the network and the strong dependence between neurons cause the power of each neuron to be limited and overfit on the most data.
 
 
@@ -69,6 +67,7 @@
 
 
 <img width="800" height="800" alt="Regularized_Class_Confusion_Matrix" src="https://github.com/user-attachments/assets/5c46f3f3-1d5f-4a5e-9d3d-8ea4aa8ebf4d" />
+
 
 
 
