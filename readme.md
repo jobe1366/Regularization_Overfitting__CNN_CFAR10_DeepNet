@@ -36,20 +36,20 @@
 
 ---
 
-- _Dropout layers:It is used to prevent over-fitting. In such a way that we randomly ignore a percentage of neurons during network training. The large number of parameters of the network and the strong dependence between neurons cause the power of each neuron to be limited and overfit on the most data._
+ > #### Dropout layers:
+> - It is used to prevent over-fitting. In such a way that we randomly ignore a percentage of neurons during network training. The large number of parameters of the network and the strong dependence between neurons cause the power of each neuron to be limited and overfit on the most data.
 
 
-- _Batch normalization:Instead of normalizing only the initial input, normalize the input of all layers.One of the advantages of using this method is that the weight of some neurons does not increase too much_
+> #### Batch normalization:
+> - Instead of normalizing only the initial input, normalize the input of all layers.One of the advantages of using this method is that the weight of some neurons does not increase too much.
 
 
-- _Augmentation:More training data for network training_
+> #### Augmentation:More training data for network training_
 
 
 
 
 #### _Regularized model summary_
-
-
 
 <img width="750" height="923" alt="regularized_cnn_model_summary" src="https://github.com/user-attachments/assets/ae06ec5d-c45e-4492-a3ff-22ca4a19710b" />
 
@@ -69,6 +69,7 @@
 
 
 <img width="800" height="800" alt="Regularized_Class_Confusion_Matrix" src="https://github.com/user-attachments/assets/5c46f3f3-1d5f-4a5e-9d3d-8ea4aa8ebf4d" />
+
 
 
 
